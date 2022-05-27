@@ -1,0 +1,55 @@
+{
+"name" : "sample project",
+"start" : "2014-10-15",
+"tickets" : [
+  {
+    "name" : "TASK1",
+    "mindays" : 10,
+    "maxdays" : 21,
+    "parallelizable" : 2,
+    "comment" : "use any string for the name"
+  },
+  {
+    "name" : "TASK2",
+    "mindays" : 10,
+    "maxdays" : 30,
+    "parallelizable" : 2,
+    "comment" : "two other tasks can be worked in parallel with this task"
+  },
+  {
+    "name" : "TASK3",
+    "mindays" : 2,
+    "maxdays" : 15,
+    "parallelizable" : 1,
+    "comment" : "a task can be anything and may involve multiple groups"
+  },
+  {
+    "name" : "TASK4",
+    "mindays" : 2,
+    "maxdays" : 15,
+    "parallelizable" : 1,
+    "comment" : "parallelizable should not be more than team size"
+  },
+  {
+    "name" : "TASK5",
+    "mindays" : 2,
+    "maxdays" : 4,
+    "parallelizable" : 1,
+    "comment" : "create as many tasks as you need"
+  },
+  {
+    "name" : "TASK6",
+    "mindays" : 2,
+    "maxdays" : 4,
+    "parallelizable" : 1,
+    "comment" : "this task will take somewhere between 2 and 4 days"
+  },
+  {
+    "name" : "TASK7",
+    "mindays" : 3,
+    "maxdays" : 10,
+    "parallelizable" : 0,
+    "comment" : "no other project work can be done in parallel with this task"
+  }
+]
+}
